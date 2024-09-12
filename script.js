@@ -1,7 +1,7 @@
 console.log("Hello, World!")
 const changeBtn = document.querySelector(`.change-size`)
 const container = document.querySelector('.container')
-let boxNumbers = 32
+let boxNumbers = 16
 
 
 changeBtn.addEventListener("click", () => {
@@ -26,10 +26,8 @@ function getRandomColor() {
 
 function displayBoxes(numOfBoxes){
     let size = 720;
-    numOfBoxes = boxNumbers
     let dimension = size/numOfBoxes;
     
-
     for(let i = 1; i <= numOfBoxes * numOfBoxes; i++){
 
         const box = document.createElement("div")
