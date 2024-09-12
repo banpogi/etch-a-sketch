@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FADFA1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+button {
+    
+    background-color: #7EACB5;
+    padding: 10px;
+    margin: 8px;
+
+}
+
+
+.container {    
+
+    background-color: white;
+    width: 720px;
+    height: 720px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+h1 {
+    padding: 16px;
+    font-style: italic;
+    font-size: 100px;
+}
+
+
